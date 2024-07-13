@@ -1,0 +1,8 @@
+.containerOfCards{
+    display:grid;
+    grid-template-columns:repeat(auto-fill ,minmax(250px , 1fr));
+    justify-items: center;
+    align-items: center;
+    grid-gap:20px;
+    padding:20px;
+}
