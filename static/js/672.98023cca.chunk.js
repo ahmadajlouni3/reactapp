@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrobotsnew=self.webpackChunkrobotsnew||[]).push([[672],{672:(s,e,n)=>{n.r(e),n.d(e,{default:()=>h});var t=n(43),r=n(579);class i extends t.Component{render(){const{id:s,email:e,name:n,normalDesgin:t}=this.props;return(0,r.jsxs)("div",{className:t,children:[(0,r.jsx)("img",{src:"https://robohash.org/".concat(s,"?set=set3&size=225x225&ignoreext=false"),alt:"",width:"150",height:"150"}),(0,r.jsxs)("div",{children:[(0,r.jsx)("h2",{children:n}),(0,r.jsx)("p",{children:e})]})]})}}const h=i}}]);
+//# sourceMappingURL=672.98023cca.chunk.js.map
