@@ -21,6 +21,9 @@ jobs:
       - run:
           name: "npm installing"
           command: "npm install"
+      - run:
+          name: "status Message"
+          command: "echo 'Done'"
   
 
   test:
@@ -29,8 +32,8 @@ jobs:
     steps:
       - checkout
       - run: 
-        name: "test env"
-        command: "npm test"
+          name: "test env"
+          command: "npm test"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
