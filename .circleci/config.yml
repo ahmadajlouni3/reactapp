@@ -23,7 +23,7 @@ jobs:
           command: "npm install"
       - run:
           name: "status Message"
-          command: "Done"
+          command: "echo Done"
   
 
   test:
